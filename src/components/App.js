@@ -40,7 +40,7 @@ class App extends Component {
   render() {
     const newArr = this.cityList.map(city=>{
       console.log(city);
-      return <li key={cityList.location}>{city.name}</li>
+      return <li key={city.location}>{city.name}</li>
     })
     return(
       <div id="main">
